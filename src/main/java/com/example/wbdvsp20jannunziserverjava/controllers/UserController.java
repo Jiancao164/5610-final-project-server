@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpSession;
 
 @RestController
-@CrossOrigin(origins = "https://fathomless-atoll-86606.herokuapp.com", allowCredentials = "true")
+@CrossOrigin(origins = "https://hidden-plains-18203.herokuapp.com", allowCredentials = "true")
 public class UserController {
     @Autowired
     UserRepository userRepository;
