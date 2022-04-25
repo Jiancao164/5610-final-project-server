@@ -9,7 +9,7 @@ import java.util.List;
 
 
 @RestController
-@CrossOrigin(origins = "*", allowCredentials = "true")
+@CrossOrigin(origins = "https://master.d2c8dtb6ccbum4.amplifyapp.com", allowCredentials = "true")
 public class ReviewController {
 
     @Autowired
