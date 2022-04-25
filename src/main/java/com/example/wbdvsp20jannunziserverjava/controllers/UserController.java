@@ -7,9 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpSession;
-
+//https://powerful-thicket-77714.herokuapp.com
 @RestController
-@CrossOrigin(origins = "https://powerful-thicket-77714.herokuapp.com", allowCredentials = "true")
+@CrossOrigin(origins = "*", allowCredentials = "true")
 public class UserController {
     @Autowired
     UserRepository userRepository;
